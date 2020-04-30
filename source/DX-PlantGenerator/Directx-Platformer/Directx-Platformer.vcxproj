@@ -23,7 +23,7 @@
     <ProjectGuid>{B7AC13FC-2DCD-426F-A122-680CBEA40176}</ProjectGuid>
     <RootNamespace>DirectxPlatformer</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Directx-OpenWorld</ProjectName>
+    <ProjectName>DX-PlantGenerator</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
