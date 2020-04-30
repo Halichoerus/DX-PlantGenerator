@@ -123,7 +123,7 @@ LRESULT Window::HandleMsg(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
 		if (pt.x != midX && pt.y != midY)
 		{
 			input.OnMouseMove(pt.x, pt.y);
-			SetCursorPos(midX, midY);
+			//SetCursorPos(midX, midY);
 		}
 		break;
 	}
@@ -210,7 +210,7 @@ Window::Window(int _width, int _height, const char* name)
 	HWND hWnd = CreateWindowEx(
 		0,
 		WindowClass::GetName(),
-		"Procedural Open World",
+		"Plant Generator",
 		WS_CAPTION | WS_MINIMIZEBOX | WS_SYSMENU,
 		CW_USEDEFAULT, CW_USEDEFAULT,
 		rect.right - rect.left, rect.bottom - rect.top,

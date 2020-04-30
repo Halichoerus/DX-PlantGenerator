@@ -124,9 +124,7 @@
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
     <ClCompile Include="BlendState.cpp" />
-    <ClCompile Include="Block.cpp" />
     <ClCompile Include="Camera.cpp" />
-    <ClCompile Include="Chunk.cpp" />
     <ClCompile Include="Component.cpp" />
     <ClCompile Include="ComponentPool.cpp" />
     <ClCompile Include="Cuboid.cpp" />
@@ -151,7 +149,6 @@
     <ClCompile Include="Mesh.cpp" />
     <ClCompile Include="MeshRenderer.cpp" />
     <ClCompile Include="Model.cpp" />
-    <ClCompile Include="OpenWorldScene.cpp" />
     <ClCompile Include="PixelBuffer.cpp" />
     <ClCompile Include="PixelShader.cpp" />
     <ClCompile Include="PointLight.cpp" />
@@ -165,26 +162,19 @@
     <ClCompile Include="VertexShader.cpp" />
     <ClCompile Include="WICTextureLoader.cpp" />
     <ClCompile Include="Window.cpp" />
-    <ClCompile Include="World.cpp" />
     <ClCompile Include="WorldConstantBuffer.cpp" />
-    <ClCompile Include="WorldData.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Application.h" />
     <ClInclude Include="BlendState.h" />
-    <ClInclude Include="Block.h" />
     <ClInclude Include="Camera.h" />
-    <ClInclude Include="Chunk.h" />
-    <ClInclude Include="ChunkSaveData.h" />
     <ClInclude Include="Component.h" />
     <ClInclude Include="ComponentPool.h" />
-    <ClInclude Include="Constants.h" />
     <ClInclude Include="Cuboid.h" />
     <ClInclude Include="DXBindable.h" />
     <ClInclude Include="DXDrawable.h" />
     <ClInclude Include="Flower.h" />
     <ClInclude Include="FlowerGenScene.h" />
-    <ClInclude Include="HeightMap.h" />
     <ClInclude Include="imconfig.h" />
     <ClInclude Include="imgui.h" />
     <ClInclude Include="ImguiManager.h" />
@@ -203,7 +193,6 @@
     <ClInclude Include="Mesh.h" />
     <ClInclude Include="MeshRenderer.h" />
     <ClInclude Include="Model.h" />
-    <ClInclude Include="OpenWorldScene.h" />
     <ClInclude Include="PixelBuffer.h" />
     <ClInclude Include="PixelShader.h" />
     <ClInclude Include="Plane.h" />
@@ -221,9 +210,7 @@
     <ClInclude Include="Transform.h" />
     <ClInclude Include="Vertex.h" />
     <ClInclude Include="Window.h" />
-    <ClInclude Include="World.h" />
     <ClInclude Include="WorldConstantBuffer.h" />
-    <ClInclude Include="WorldData.h" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="PhongVS.hlsl">

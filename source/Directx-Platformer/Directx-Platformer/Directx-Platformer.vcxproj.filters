@@ -159,26 +159,11 @@
     <ClCompile Include="FlowerGenScene.cpp">
       <Filter>Application\Source FIles</Filter>
     </ClCompile>
-    <ClCompile Include="OpenWorldScene.cpp">
-      <Filter>Application\Source FIles</Filter>
-    </ClCompile>
-    <ClCompile Include="World.cpp">
-      <Filter>Application\Source FIles</Filter>
-    </ClCompile>
-    <ClCompile Include="Chunk.cpp">
-      <Filter>Application\Source FIles</Filter>
-    </ClCompile>
-    <ClCompile Include="Block.cpp">
-      <Filter>Application\Source FIles</Filter>
-    </ClCompile>
     <ClCompile Include="Camera.cpp">
       <Filter>Engine\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Time.cpp">
       <Filter>Engine\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="WorldData.cpp">
-      <Filter>Application\Source FIles</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -314,35 +299,11 @@
     <ClInclude Include="FlowerGenScene.h">
       <Filter>Application\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="OpenWorldScene.h">
-      <Filter>Application\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="World.h">
-      <Filter>Application\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Chunk.h">
-      <Filter>Application\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Block.h">
-      <Filter>Application\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Constants.h">
-      <Filter>Application\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Camera.h">
       <Filter>Engine\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Time.h">
       <Filter>Engine\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="HeightMap.h">
-      <Filter>Application\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="WorldData.h">
-      <Filter>Application\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ChunkSaveData.h">
-      <Filter>Application\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
